@@ -37,7 +37,6 @@ const makeABaby = (first, last) => ({ name: `${first} ${last}`, age: 0 });
 
 // IIFE
 // Immediately Invoked Function Expression
-
 (function(age) {
   return `You are cool and age ${age}`;
 })(10);
